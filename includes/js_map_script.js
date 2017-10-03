@@ -62,11 +62,14 @@ function loadMarkers() {
               
               avail = Math.round(5*Math.random());
 
-              if (avail < 3) {
+              if (avail < 2) {
               	fcolor = 'red';
               }
+              else if (avail < 4) {
+              	fcolor = 'orange';
+              }
               else {
-              	fcolor = 'green';
+                fcolor = 'green';
               }
 
               //var open = markers[i].getElementsByTagName("open")[0].innerHTML;
