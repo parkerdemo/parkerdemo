@@ -22,7 +22,7 @@ html, body {
 	padding-top: 20%;
 }
 #wrap {
-	margin: 5px;
+	padding: 5px;
 	border-bottom: 3px solid #EEE;
 }
 #header {
