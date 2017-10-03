@@ -46,7 +46,7 @@ function loadMarkers() {
         var xml = data.responseXML;
         markers = xml.documentElement.getElementsByTagName("features");
 
-        var grouping = 20;
+        var grouping = 25;
         var count = 0;
 
         // for each marker
@@ -60,7 +60,7 @@ function loadMarkers() {
 
             if (i % grouping == 0) {
               
-              avail = Math.round(5*Math.random());
+              avail = Math.round(4*Math.random());
 
               if (avail < 2) {
               	fcolor = '#F44336';
