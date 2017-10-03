@@ -71,7 +71,7 @@ function loadMarkers() {
                 //orange
               }
               else {
-                fcolor = '#64DD17';
+                fcolor = '#4CAF50';
                 //green
               }
 
